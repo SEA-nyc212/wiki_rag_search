@@ -21,7 +21,8 @@ es = Elasticsearch(
 print(es.info())
 
 
-st.subheader("Wikipedia English 7,009,000+ articles 2025.6. 검색 ")
+st.subheader("Wikipedia Eng. 검색 ")
+st.caption("우리 모두의 백과사전 Wikipedia English 7,009,000+ articles 2025.6.")
 st.title("한글로 답변하는 AI")
 st.subheader("부제: Semantic search and Retrieval augmented generation using Elasticsearch and OpenAI")
 
